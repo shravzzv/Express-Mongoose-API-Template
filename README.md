@@ -1,6 +1,6 @@
 # Node.js API with JWT Authentication Template
 
-This is a simple Node.js Express server API template with JSON Web Token (JWT) authentication built in. It can be used as a starting point for building RESTful APIs with Node.js and Express.
+This is a simple Node.js Express server with JSON Web Token (JWT) authentication built in. It can be used as a starting point for building RESTful APIs with Node.js and Express.
 
 ## Getting Started
 
@@ -47,7 +47,6 @@ All endpoints except authentication require a valid JWT token in the Authorizati
 This template uses the following dependencies:
 
 - Express - A fast and minimalist web framework for Node.js.
-- JSON Web Token (JWT) - A standard for creating JSON-based access tokens.
 - bcrypt - A library for hashing passwords.
 - dotenv - A library for loading environment variables from a .env file.
 - express-validator - A library for validating input data.
